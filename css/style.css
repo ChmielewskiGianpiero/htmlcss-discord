@@ -11,7 +11,7 @@
 
 .container-sm{
     margin: 0 auto;
-    max-width: 600px;
+    max-width: 670px;
 }
 
 
@@ -27,21 +27,56 @@
 }
 
 .col-logo {
-    width: 60px;
+    width: 100px;
 }
 
 .col-link{
     margin-right: 30px;
-    font-size: 10px;
+    font-size: 12px;
+}
+
+.col,.col-link, .main-page-title, .title-info {
     font-family: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #FFFF;
+}
+
+.col-login{
+    background-color: #FFFFFF;
+    color: black;
+    font-family: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    padding: 7px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 
 /* main */
 
+.hero {
+    background-image: url(../img/jumbo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 720px;
+}
+
+.main-page-title{
+    margin-top: 134px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.hero p{
+    margin-top: 40px;
+    text-align: center;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
 .col-12{
 	flex-basis: calc((100% / 12) * 12);
+    text-align: center;
 }
 
 .col-8{
@@ -76,7 +111,6 @@
 }
 
 .debug main section {
-	padding: 20px;
 }
 
 .debug .footer-page{
@@ -100,9 +134,6 @@
     background-color: #20B2AA;
 }
 
-.debug .section1 {
-    background-color: blue;
-}
 
 .debug .container-sm{
     background-color:#EE82EE ;
