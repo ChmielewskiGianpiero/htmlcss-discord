@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+
 
 .container{
     margin: 0 auto;
@@ -45,14 +48,12 @@
 }
 
 .col,.col-link, .main-page-title, .title-info{
-    font-family: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #FFFF;
 }
 
 .col-button{
     background-color: #FFFFFF;
     color: black;
-    font-family: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold;
     text-decoration: none;
 }
@@ -117,7 +118,6 @@
     display: flex;
     padding-top: 50px;
     font-size: 50px;
-    font-family: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .text-item1{
@@ -125,7 +125,6 @@
     flex-wrap: wrap;
     flex-direction: column-reverse;
     color: #000000d1;
-    font-family: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 17px;
     padding-top: 30px;
 }
@@ -175,6 +174,24 @@
 
 .column-reverse{
     flex-direction: column-reverse;
+}
+
+/* section4 */
+.title-item2{
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 37px;
+    order: -1;
+    align-self: center;
+}
+
+.mac2{
+    order: -2;
+    align-self: center;
+    max-width: 178px;
+    margin-bottom: 40px;
+    background-color: #8EA1E1;
 }
 
 /* footer */
