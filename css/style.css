@@ -14,6 +14,11 @@
     max-width: 680px;
 }
 
+.container-section1{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 
 .row{
     display: flex;
@@ -35,12 +40,12 @@
     font-size: 12px;
 }
 
-.col,.col-link, .main-page-title, .title-info {
+.col,.col-link, .main-page-title, .title-info,  {
     font-family: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #FFFF;
 }
 
-.col-button{
+.col-button,{
     background-color: #FFFFFF;
     color: black;
     font-family: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -57,11 +62,13 @@
 
 /* main */
 
+/* hero */
+
 .hero {
     background-image: url(../img/jumbo.png);
     background-size: contain;
     background-repeat: no-repeat;
-    min-height: 720px;
+    min-height: 800px;
 }
 
 .main-page-title{
@@ -100,16 +107,60 @@
     text-align: center;
 }
 
+/* section */
+
+.title-item1{
+    display: flex;
+    margin-top: 50px;
+    font-size: 50px;
+    font-family: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.text-item1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    color: #000000d1;
+    font-family: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.ct-info-section1{
+    margin-left: 50px;
+
+}
+
+.justify-evenly{
+    justify-content: space-evenly;
+}
+
+.nowrap{
+    flex-wrap: nowrap;
+}
+
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.section-info{
+    margin-top: 100px;
+}
+
 .col-8{
     flex-basis: calc((100% / 12) * 8);
 }
 
 .col-4 {
     flex-basis: calc((100% / 12) * 4);
+    display: flex;
+    flex-direction: column;
 }
 
 .row-reverse {
     flex-direction: row-reverse;
+    
 }
 
 /* footer */
