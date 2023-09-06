@@ -171,6 +171,12 @@
     flex-direction: row-reverse;
 }
 
+/* section3 */
+
+.column-reverse{
+    flex-direction: column-reverse;
+}
+
 /* footer */
 
 .col-2{
