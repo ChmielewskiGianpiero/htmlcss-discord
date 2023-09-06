@@ -73,7 +73,7 @@
     background-image: url(../img/jumbo.png);
     background-size: contain;
     background-repeat: no-repeat;
-    min-height: 800px;
+    min-height: 720px;
 }
 
 .main-page-title{
@@ -200,6 +200,10 @@
     flex-basis: calc((100% /12) * 2);
 }
 
+.footer-logo{
+    width: 20px;
+}
+
 /* debug */
 
 .header-page{
@@ -216,9 +220,8 @@
 .debug main section {
 }
 
-.debug .footer-page{
-    background-color: black;
-    padding: 20px;
+.footer-page{
+    background-color: #23272A;
 }
 
 .debug footer [class^='col-']{
